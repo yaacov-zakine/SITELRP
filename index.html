@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="IMAGES/DALL·E 2024-12-06 21.13.34 - A distinctive logo for a pest control company called 'Le Rat Parisien'. It features a gray rat dressed in a French national team jersey and a beret, h-Photoroom.png"
+        alt="logo"
+      />
+      <div id="header1">
+        <a class="banner" href="index2.html">PRESTATIONS</a>
+        <a class="banner" href="#form">TARIFS</a>
+        <div class="buttons">
+          <img
+            src="IMAGES/logo devis 3.svg"
+            alt="icondevis"
+            class="icondevis"
+          />
+          <a href="index3.html" class="devis-link"
+            ><p class="colortextbuttons">DEVIS GRATUIT</p>
+          </a>
+        </div>
+      </div>
+    </header>
+    <h1>LE RAT PARISIEN</h1>
+    <span class="tagline">
+      Chassez les nuisibles avant qu’ils ne s’installent : une solution sur
+      mesure !
+    </span>
+    <div class="buttons-large">
+      <span class="colortextbuttons2"> CONTACTEZ - NOUS </span>
+    </div>
+    <div class="alldirections">
+      <a class="direction" href="#header1">ACCUEIL</a>
+      <a class="direction" href="#IDENTIFICATION">IDENTIFICATION</a>
+      <a class="direction" href="index2.html">PRESTATIONS</a>
+      <a class="direction" href="#form">TARIFS</a>
+      <a class="direction" href="#contact">CONTACT</a>
+      <a class="direction" href="index3.html">DEVIS</a>
+    </div>
+    <img
+      id="imagemouse"
+      src="IMAGES/cc3edb92-d349-42fc-8b93-30596172099e.webp"
+      alt="imagemouse"
+    />
+    <h2 id="IDENTIFICATION">Identifiez le nuisible</h2>
+    <h2 class="under">présent chez vous</h2>
+    <h3>découvrez toutes les informations en un clic !</h3>
+
+    <div class="Card-Set">
+      <div
+        class="Card-Mouse"
+        data-title="Souris"
+        data-text="Une souris est un petit rongeur au corps élancé, avec de grandes oreilles rondes, une longue queue fine et un museau pointu. Elle se distingue par son agilité, sa rapidité et sa capacité à s'infiltrer dans de petits espaces."
+      >
+        <div class="learnmore">En savoir plus</div>
+        <img id="imagecardmouse" src="IMAGES/SOURIS copie.webp" alt="MOUSE" />
+        <p>Souris</p>
+      </div>
+
+      <div
+        class="Card-Pigeon"
+        data-title="Pigeon"
+        data-text="Un pigeon est un oiseau au corps trapu, avec un bec court et une démarche saccadée. Il est souvent urbain et reconnaissable à son vol rapide et battu."
+      >
+        <div class="learnmore">En savoir plus</div>
+        <img id="imagecardpigeon" src="IMAGES/PIGEON copie.webp" alt="PIGEON" />
+        <p>Pigeon</p>
+      </div>
+
+      <div
+        class="Card-Rat"
+        data-title="Rat"
+        data-text="Un rat est un rongeur de taille moyenne avec un corps robuste, une longue queue nue, un museau pointu et de grandes incisives. Il est connu pour sa capacité à ronger, grimper et s’adapter à divers environnements, y compris les égouts et les habitations."
+      >
+        <div class="learnmore">En savoir plus</div>
+        <img id="imagecardrat" src="IMAGES/photo de rat copie.jpg" alt="RAT" />
+        <p>Rat</p>
+      </div>
+      <div
+        class="Card-Cockroach"
+        data-title="Blatte"
+        data-text="Une blatte est un insecte au corps aplati, avec de longues antennes et des pattes rapides, souvent actif la nuit dans les endroits humides. Comme la punaise de lit, elle est résistante et envahissante, mais contrairement à cette dernière, elle ne se nourrit pas de sang."
+      >
+        <div class="learnmore">En savoir plus</div>
+        <img
+          id="imagecardcockroad"
+          src="IMAGES/photo de blattes  copie.jpg"
+          alt="COCKROAD"
+        />
+        <p>Blatte</p>
+      </div>
+      <div
+        class="Card-Ant"
+        data-title="Fourmis"
+        data-text="Une fourmi est un insecte social au corps segmenté, avec six pattes, de longues antennes et de puissantes mandibules. Elle vit en colonie organisée et suit des pistes chimiques pour trouver de la nourriture."
+      >
+        <div class="learnmore">En savoir plus</div>
+        <img
+          id="imagecardant"
+          src="IMAGES/photo de fourmis copie.jpg"
+          alt="FOURMIS"
+        />
+        <p>Fourmis</p>
+      </div>
+    </div>
+    <section id="form">
+      <a class="estimate"
+        >Obtenez une estimation personnalisée en quelques clics :</a
+      >
+      <a class="under2"
+        >Complétez notre formulaire simplifié pour une intervention rapide et
+        adaptée à vos besoins !</a
+      >
+
+      <div class="block1">
+        <div class="name">
+          Nom :
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Entrez votre nom"
+            required
+          />
+        </div>
+        <div class="phone">
+          Téléphone :
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="Entrez votre numéro"
+            required
+          />
+        </div>
+        <div class="treatment">
+          Type de traitement :
+          <select id="treatment">
+            <option value="Dératisation">Dératisation</option>
+            <option value="Désinsectisation">Désinsectisation</option>
+            <option value="Désinfection">Désinfection</option>
+          </select>
+        </div>
+      </div>
+      <div class="block2">
+        <div class="area">
+          Superficie :
+          <select id="area">
+            <option value="0 - 50 m2">0 - 50 m2</option>
+            <option value="51 - 100 m2">51 - 100 m2</option>
+            <option value="> 100 m2">> 100 m2</option>
+          </select>
+        </div>
+
+        <div class="estimation-group">
+          <div class="price">Recevoir une estimation</div>
+          <div class="estimation-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <div class="highlight-fast">
+        <a class="HL">Intervention rapide </a>
+      </div>
+      <div class="highlight-price">
+        <a class="HL">Tarifs connus à l’avance</a>
+      </div>
+      <div class="highlight-pro">
+        <a class="HL">Exterminateurs Qualifiés</a>
+      </div>
+    </section>
+
+    <div class="avis">
+      Vos avis comptent : consultez nos évaluations Google !
+    </div>
+    <section class="allavis">
+      <div class="row">
+        <img class="review" src="IMAGES/avis-1.png" alt="avis-1" />
+        <img class="review" src="IMAGES/avis-2.png" alt="avis-2" />
+        <img class="review" src="IMAGES/avis-3.png" alt="avis-3" />
+      </div>
+      <div class="row">
+        <img class="review" src="IMAGES/avis-4.png" alt="avis-4" />
+        <img class="review" src="IMAGES/avis-5.png" alt="avis-5" />
+        <img class="review" src="IMAGES/avis-6.png" alt="avis-6" />
+      </div>
+      <div class="row2">
+        <img class="review" src="IMAGES/avis-7.png" alt="avis-7" />
+        <img class="review" src="IMAGES/avis-8.png" alt="avis-8" />
+      </div>
+    </section>
+    <section id="contact">
+      <div class="textcontact">Besoin d’une intervention ?</div>
+      <div class="textcontact-harmful">Fini les nuisibles</div>
+      <div class="textcontact-contact">Contactez-nous</div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <div class="contactfooter">FAQ</div>
+          <div class="contactfooter">0782858051</div>
+          <div class="contactfooter">leratparisien@gmail.com</div>
+        </div>
+        <div class="footer-section">
+          <h4><a href="index2.html">Prestations</a></h4>
+          <div class="prestationsfooter">Dératisation</div>
+          <div class="prestationsfooter">Désinsectisation</div>
+          <div class="prestationsfooter">Désinfection</div>
+        </div>
+        <div class="footer-socials">
+          <img src="IMAGES/Facebook.png" alt="facebook" />
+          <img src="IMAGES/Logo 2.png" alt="instagram" />
+          <img src="IMAGES/Tik Tok.png" alt="tiktok" />
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="scriptPopup.js"></script>
+    <script src="scriptCardAnim.js"></script>
+  </body>
+</html>
