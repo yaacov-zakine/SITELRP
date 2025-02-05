@@ -87,7 +87,7 @@ header {
   opacity: 80%;
 }
 
-.colortextbuttons {
+.colorTextButtons {
   color: #ffffff;
   font-family: "InaiMathi";
   display: flex;
@@ -99,7 +99,7 @@ header {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.icondevis {
+.iconDevis {
   width: 20px;
   height: 20px;
   display: flex;
@@ -177,7 +177,7 @@ h1 {
   width: 50px;
 }
 
-#imagemouse {
+#imageMouse {
   width: 40%;
   height: 40%;
   margin-top: 100px;
@@ -221,7 +221,7 @@ h3 {
   position: relative;
 }
 
-.learnmore {
+.learnMore {
   width: 138px;
   height: 34px;
   background-color: #ffffff;
@@ -271,7 +271,7 @@ h3 {
   position: relative;
 }
 
-#imagecardmouse {
+#imageCardMouse {
   width: 264px;
   height: 258px;
   border-radius: 9px;
@@ -279,7 +279,7 @@ h3 {
   margin-top: 10px;
 }
 
-#imagecardpigeon {
+#imageCardPigeon {
   width: 264px;
   height: 258px;
   border-radius: 9px;
@@ -287,7 +287,7 @@ h3 {
   margin-top: 10px;
 }
 
-#imagecardrat {
+#imageCardRat {
   width: 264px;
   height: 258px;
   border-radius: 9px;
@@ -295,7 +295,7 @@ h3 {
   margin-top: 10px;
 }
 
-#imagecardcockroad {
+#imageCardCockroad {
   width: 264px;
   height: 258px;
   border-radius: 9px;
@@ -303,7 +303,7 @@ h3 {
   margin-top: 10px;
 }
 
-#imagecardant {
+#imageCardant {
   width: 264px;
   height: 258px;
   border-radius: 9px;
@@ -643,13 +643,13 @@ h4 a:hover {
   color: #cfb38e;
 }
 
-.contactfooter,
-.prestationsfooter {
+.contactFooter,
+.prestationsFooter {
   color: #adacac;
   font-size: 20px;
   margin-bottom: 10px;
 }
-.contactfooter:hover {
+.contactFooter:hover {
   color: #cfb38e;
 }
 
@@ -690,7 +690,6 @@ h4 a:hover {
   margin-bottom: 20px;
 }
 
-/* Styles du popup */
 .modal {
   display: none;
   position: fixed;
@@ -704,7 +703,6 @@ h4 a:hover {
   z-index: 1000;
 }
 
-/* Contenu du popup */
 .modal-content {
   background: white;
   padding: 20px;
@@ -717,7 +715,6 @@ h4 a:hover {
   z-index: 1001;
 }
 
-/* Bouton de fermeture */
 .close-btn {
   font-size: 20px;
   color: black;
@@ -737,14 +734,12 @@ h5 {
   margin-top: 50px;
 }
 
-/* Conteneur principal */
 .prestation-container {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
 }
 
-/* Style des sections */
 .prestation {
   background: white;
   padding: 20px;
@@ -754,7 +749,6 @@ h5 {
   position: relative;
 }
 
-/* Différenciation des prestations par couleur */
 .prestation:nth-child(1) {
   border-left: 8px solid #007bff;
   background: #eaf3ff;
@@ -795,7 +789,6 @@ h4-services {
   margin-top: 15px;
 }
 
-/* Description de la prestation */
 .titreServices {
   font-size: 16px;
   font-weight: 500;
@@ -803,7 +796,6 @@ h4-services {
   margin-bottom: 15px;
 }
 
-/* Style des listes */
 .prestation ul {
   padding-left: 20px;
   list-style-type: disc;
@@ -853,19 +845,17 @@ input[type="submit1"]:hover {
 }
 
 .devis-link:hover {
-  color: red; /* Change la couleur au survol */
+  color: red;
 }
 
-/* Centrage du bouton */
 .buttonsDevisFinal {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: auto; /* Hauteur totale de l'écran */
+  height: auto;
   transform: translateY(-10px);
 }
 
-/* Style du bouton */
 #devisButton {
   padding: 10px 20px;
   background-color: black;
@@ -884,9 +874,8 @@ input[type="submit1"]:hover {
   background-color: #cfb38e;
 }
 
-/* Style de la popup */
 .popup {
-  display: none; /* Cachée par défaut */
+  display: none;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -900,7 +889,6 @@ input[type="submit1"]:hover {
   min-width: 250px;
 }
 
-/* Style buttons OK */
 .popup button {
   margin-top: 10px;
   padding: 5px 10px;

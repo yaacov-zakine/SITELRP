@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
   estimationContainer.style.width = "50%";
   estimationContainer.style.margin = "10px auto";
 
-  // Insérer immédiatement après le bouton sans supprimer le bouton lui-même
   const formParent = document.querySelector("#form");
 
   priceButton.addEventListener("click", function () {
@@ -63,14 +62,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Sélectionne le conteneur où les éléments seront ajoutés
   const app = document.getElementById("app");
 
-  // Création du conteneur du bouton
   const buttonContainer = document.createElement("div");
   buttonContainer.className = "buttonsDevisFinal";
 
-  // Création du bouton
   const button = document.createElement("button");
   button.id = "devisButton";
   button.innerText = "Recevez votre devis";
@@ -78,11 +74,9 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("popup").style.display = "block";
   });
 
-  // Ajout du bouton dans son conteneur
   buttonContainer.appendChild(button);
   app.appendChild(buttonContainer);
 
-  // Création de la popup
   const popup = document.createElement("div");
   popup.id = "popup";
   popup.className = "popup";
@@ -91,10 +85,8 @@ document.addEventListener("DOMContentLoaded", function () {
     <button id="closePopup">OK</button>
   `;
 
-  // Ajout de la popup au body
   document.body.appendChild(popup);
 
-  // Gestion de la fermeture de la popup
   document.getElementById("closePopup").addEventListener("click", function () {
     popup.style.display = "none";
   });
