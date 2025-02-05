@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeu de Clic Promo</title>
+    <link rel="stylesheet" href="stylejeu.css" />
+    <style>
+      #clickable-image {
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="index.html" class="return-link">
+      <div class="return">RETOUR ACCUEIL</div>
+    </a>
+    <h1>Obtenez votre code promo !</h1>
+    <p>
+      Cliquez au moins 30 fois sur l'image en 10 secondes pour obtenir un code
+      promo.
+    </p>
+    <img
+      id="clickable-image"
+      src="IMAGES/png-clipart-ratatouille-hollywood-ratatouille-film-pixar-the-walt-disney-company-rat-mammal-animals-Photoroom.png"
+      alt="Cliquez ici"
+    />
+    <p>Temps restant : <span id="timer">10</span> s</p>
+    <p>Nombre de clics : <span id="click-count">0</span></p>
+    <p id="message"></p>
+
+    <script src="scriptjeu.js"></script>
+  </body>
+</html>

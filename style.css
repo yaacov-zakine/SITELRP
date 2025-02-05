@@ -12,12 +12,22 @@
   src: url("FONT/IM_Fell_English/IMFellEnglish-Regular.ttf");
 }
 
+body {
+  padding-top: 100px;
+}
+
 header {
-  background-color: #ffffff;
+  background-color: snow;
   height: 100px;
+  box-shadow: 10px 5px 10px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0; /* L'accroche en haut */
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .logo {
@@ -56,6 +66,10 @@ header {
   align-items: center;
   gap: 10px;
 }
+.buttons:hover {
+  background-color: black;
+  opacity: 80%;
+}
 
 .buttons-large {
   background-color: black;
@@ -66,6 +80,11 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1Opx;
+}
+
+.buttons-large:hover {
+  background-color: black;
+  opacity: 80%;
 }
 
 .colortextbuttons {
@@ -102,6 +121,7 @@ h1 {
 .tagline {
   display: block;
   text-align: start;
+  font-size: 30px;
   margin-bottom: 1px;
   margin-bottom: 10px;
 }
@@ -113,6 +133,7 @@ h1 {
   justify-content: center;
   font-size: 15px;
   position: relative;
+  text-decoration: none;
 }
 
 .alldirections {
@@ -160,6 +181,7 @@ h1 {
   width: 40%;
   height: 40%;
   margin-top: 100px;
+  box-shadow: 0px 10px 10px 0px;
 }
 
 #IDENTIFICATION {
@@ -300,8 +322,10 @@ p {
 }
 
 #form {
-  width: 100%;
+  width: 99%;
   height: 605px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 0px;
   background-color: #504c4c;
   margin-top: 100px;
   display: flex;
@@ -440,10 +464,9 @@ select {
 
 .highlight-fast {
   background-color: black;
-  background-image: url(IMAGES/interiur\ 2.webp);
+  color: #ffffff;
   background-position: center;
   background-size: contain;
-  opacity: 70%;
   width: 394px;
   height: 81px;
   border-radius: 20px;
@@ -453,10 +476,8 @@ select {
 
 .highlight-price {
   background-color: black;
-  background-image: url(IMAGES/interiur\ 2.webp);
   background-position: center;
   background-size: contain;
-  opacity: 70%;
   width: 394px;
   height: 81px;
   border-radius: 20px;
@@ -466,10 +487,8 @@ select {
 
 .highlight-pro {
   background-color: black;
-  background-image: url(IMAGES/interiur\ 2.webp);
   background-position: center;
   background-size: contain;
-  opacity: 70%;
   width: 394px;
   height: 81px;
   border-radius: 20px;
@@ -478,7 +497,7 @@ select {
 }
 
 .HL {
-  color: black;
+  color: #ffffff;
   font-size: 24px;
   display: flex;
   justify-content: center;
@@ -573,6 +592,10 @@ select {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.textcontact-contact:hover {
+  background-color: black;
+  opacity: 80%;
 }
 
 .footer {
