@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     `;
   document.body.appendChild(modal);
 
-  document.querySelectorAll(".learnmore").forEach((button) => {
+  document.querySelectorAll(".learnMore").forEach((button) => {
     button.addEventListener("click", function () {
       const card = this.closest("div[data-title]");
 
