@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "IMFellEnglish2";
+  src: url("FONT/IM_Fell_English/IMFellEnglish-Regular.ttf");
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #cfb38e;
+  color: black;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.logo {
+  height: 20%;
+  width: 20%;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  font-family: "IMFellEnglish2";
+}
+
+.faq:last-child {
+  border-bottom: none;
+}
+
+.faq h2 {
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.faq h2:hover {
+  color: #cfb38e;
+}

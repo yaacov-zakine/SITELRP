@@ -649,6 +649,9 @@ h4 a:hover {
   font-size: 20px;
   margin-bottom: 10px;
 }
+.contactfooter:hover {
+  color: #cfb38e;
+}
 
 .footer-socials {
   position: absolute;
@@ -731,6 +734,7 @@ h5 {
   font-size: 30px;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 /* Conteneur principal */
