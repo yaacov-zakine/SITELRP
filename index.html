@@ -124,50 +124,52 @@
         >Complétez notre formulaire simplifié pour une intervention rapide et
         adaptée à vos besoins !</a
       >
+      <div class="outline">
+        <div class="container2">
+          <!-- Première ligne -->
+          <div class="block1">
+            <div class="name">
+              Nom :
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Entrez votre nom"
+                required
+              />
+            </div>
+            <div class="phone">
+              Téléphone :
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Entrez votre numéro"
+                required
+              />
+            </div>
+            <div class="treatment">
+              Type de traitement :
+              <select id="treatment">
+                <option value="Dératisation">Dératisation</option>
+                <option value="Désinsectisation">Désinsectisation</option>
+                <option value="Désinfection">Désinfection</option>
+              </select>
+            </div>
+          </div>
 
-      <div class="block1">
-        <div class="name">
-          Nom :
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Entrez votre nom"
-            required
-          />
-        </div>
-        <div class="phone">
-          Téléphone :
-          <input
-            type="text"
-            id="phone"
-            name="phone"
-            placeholder="Entrez votre numéro"
-            required
-          />
-        </div>
-        <div class="treatment">
-          Type de traitement :
-          <select id="treatment">
-            <option value="Dératisation">Dératisation</option>
-            <option value="Désinsectisation">Désinsectisation</option>
-            <option value="Désinfection">Désinfection</option>
-          </select>
-        </div>
-      </div>
-      <div class="block2">
-        <div class="area">
-          Superficie :
-          <select id="area">
-            <option value="0 - 50 m2">0 - 50 m2</option>
-            <option value="51 - 100 m2">51 - 100 m2</option>
-            <option value="> 100 m2">> 100 m2</option>
-          </select>
-        </div>
-
-        <div class="estimation-group">
-          <div class="price">Recevoir une estimation</div>
-          <div class="estimation-container"></div>
+          <!-- Deuxième ligne -->
+          <div class="block2">
+            <div class="area">
+              Superficie :
+              <select id="area">
+                <option value="0 - 50 m2">0 - 50 m2</option>
+                <option value="51 - 100 m2">51 - 100 m2</option>
+                <option value="> 100 m2">> 100 m2</option>
+              </select>
+            </div>
+            <div class="price">Recevoir une estimation</div>
+          </div>
         </div>
       </div>
     </section>

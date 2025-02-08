@@ -14,23 +14,48 @@
     </style>
   </head>
   <body>
-    <a href="index.html" class="return-link">
-      <div class="return">RETOUR ACCUEIL</div>
-    </a>
-    <h1>Obtenez votre code promo !</h1>
-    <p>
-      Cliquez au moins 30 fois sur l'image en 10 secondes pour obtenir un code
-      promo.
-    </p>
-    <img
-      id="clickable-image"
-      src="IMAGES/png-clipart-ratatouille-hollywood-ratatouille-film-pixar-the-walt-disney-company-rat-mammal-animals-Photoroom.png"
-      alt="Cliquez ici"
-    />
-    <p>Temps restant : <span id="timer">10</span> s</p>
-    <p>Nombre de clics : <span id="click-count">0</span></p>
-    <p id="message"></p>
+    <header>
+      <a href="index.html">
+        <img
+          class="logo"
+          src="IMAGES/DALL·E 2024-12-06 21.13.34 - A distinctive logo for a pest control company called 'Le Rat Parisien'. It features a gray rat dressed in a French national team jersey and a beret, h-Photoroom.png"
+          alt="logo"
+        />
+      </a>
+      <div id="header1">
+        <a class="banner" href="index2.html">PRESTATIONS</a>
+        <a class="banner" href="#form">TARIFS</a>
+        <div class="buttons">
+          <img
+            src="IMAGES/logo devis 3.svg"
+            alt="iconDevis"
+            class="iconDevis"
+          />
+          <a
+            href="index3.html"
+            class="devis-link"
+            style="text-decoration: none; color: inherit"
+            ><p class="colorTextButtons">DEVIS GRATUIT</p>
+          </a>
+        </div>
+      </div>
+    </header>
 
+    <div class="outline">
+      <h1>Obtenez votre code promo !</h1>
+      <p>
+        Cliquez au moins 30 fois sur l'image en 10 secondes pour obtenir un code
+        promo.
+      </p>
+      <img
+        id="clickable-image"
+        src="IMAGES/png-clipart-ratatouille-hollywood-ratatouille-film-pixar-the-walt-disney-company-rat-mammal-animals-Photoroom.png"
+        alt="Cliquez ici"
+      />
+      <p>Temps restant : <span id="timer">10</span> s</p>
+      <p>Nombre de clics : <span id="click-count">0</span></p>
+      <p id="message"></p>
+    </div>
     <script src="scriptjeu.js"></script>
   </body>
 </html>

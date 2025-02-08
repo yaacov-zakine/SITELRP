@@ -12,6 +12,98 @@ body {
   height: 100vh;
 }
 
+header {
+  background-color: snow;
+  height: 100px;
+  box-shadow: 10px 5px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; /* L'accroche en haut */
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  width: 60px;
+  height: 60%;
+  margin: 15px;
+}
+
+#header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.banner {
+  margin-right: 15px;
+  text-decoration: none;
+  font-family: "InaiMathi";
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+
+.banner:hover {
+  color: #cfb38e;
+}
+
+.buttons {
+  background-color: black;
+  width: 190px;
+  height: 44px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.buttons:hover {
+  background-color: black;
+  opacity: 80%;
+}
+
+.buttons-large {
+  background-color: black;
+  width: 255px;
+  height: 45px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1Opx;
+}
+
+.buttons-large:hover {
+  background-color: black;
+  opacity: 80%;
+}
+
+.colorTextButtons {
+  color: #ffffff;
+  font-family: "InaiMathi";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  position: relative;
+  margin-top: 15px;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.iconDevis {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
 h1 {
   font-size: 2.5rem;
   margin-top: 20px;
@@ -44,7 +136,6 @@ p {
   font-size: 2rem;
   margin: 10px 0;
   padding: 10px;
-  background-color: #ff4757;
   color: white;
   border-radius: 5px;
   animation: pulse 1s infinite alternate;
@@ -62,7 +153,7 @@ p {
 #click-count {
   font-weight: bold;
   font-size: 1.5rem;
-  color: #d72638;
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -101,4 +192,9 @@ p {
 
 .return-link {
   text-decoration: none;
+}
+
+.outline {
+  background-color: #cfb38e;
+  border: 5px solid white;
 }

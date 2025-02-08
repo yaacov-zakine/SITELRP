@@ -347,111 +347,87 @@ p {
   text-align: center;
 }
 
+.outline {
+  background-color: #504c4c;
+  border: 5px solid white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.container2 {
+  background-color: #504c4c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
 .block1 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
+  width: 100%;
 }
 
-.name {
-  color: black;
-  font-size: 16px;
-  width: 268px;
+.block2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.name,
+.phone,
+.treatment,
+.area,
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
   height: 53px;
   background-color: #ffffff;
   border-radius: 30px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 30px;
+  padding: 0 15px;
   border: 3px solid black;
-  pointer-events: auto;
 }
 
-.name input {
+.area,
+.price {
   flex: 1;
-  height: 100%;
+  max-width: 420px;
+}
+
+input {
   border: none;
-  background: transparent;
-  font-size: 16px;
   outline: none;
-  color: black;
-  padding-left: 5px;
-  pointer-events: auto;
-  z-index: 10;
 }
 
-.phone {
-  color: black;
-  font-size: 16px;
-  width: 268px;
-  height: 53px;
-  background-color: #ffffff;
-  border-radius: 30px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 30px;
-  border: 3px solid black;
-}
-
-.phone input {
-  flex: 1;
-  height: 100%;
-  border: none;
-  background: transparent;
-  font-size: 16px;
-  outline: none;
-  color: black;
-  padding-left: 5px;
-  pointer-events: auto;
-  z-index: 10;
-}
-
-.treatment {
-  color: black;
-  font-size: 16px;
-  width: 561px;
-  height: 51px;
-  background-color: #ffffff;
-  border-radius: 30px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 30px;
-  border: 3px solid black;
-  pointer-events: auto;
-  z-index: 10;
-}
-
-.area {
-  color: black;
-  font-size: 16px;
-  width: 605px;
-  height: 51px;
-  background-color: #ffffff;
-  border-radius: 30px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 30px;
-  border: 3px solid black;
+.price {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
 }
 select {
   border: none;
   outline: none;
   background-color: transparent;
 }
-.price {
-  color: #ffffff;
-  font-size: 22px;
-  width: 560px;
-  height: 67px;
-  background-color: black;
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.price:hover {
+  background-color: #222;
 }
 
 .highlight {
